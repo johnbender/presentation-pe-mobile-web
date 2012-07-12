@@ -3,8 +3,9 @@ body {
   color: #333;
 }
 
-p {
+.content >  p {
   text-shadow: rgba(120, 120, 120, 0.8) 0px 1px 1px;
+  font-size: 3em;
 }
 
 iframe {
@@ -77,6 +78,7 @@ iframe.phone {
 
 .bullets.grid li {
   margin-top: 20px;
+  text-shadow: rgba(120, 120, 120, 0.8) 0px 1px 1px;
 }
 
 .bullets.grid.users ul {
@@ -106,7 +108,7 @@ h3 img {
 }
 
 .content h3 {
-  font-size: 8em;
+  font-size: 9em;
 /*  background-color: #3e57f2;
   color: white; */
   padding: 0.25em 0;
@@ -466,6 +468,27 @@ b .variable-name {
   background-image: url(one/awesome.png);
 }
 
+.good-background {
+  background-image: url(one/puppies.jpg);
+}
+
+.bad-background {
+  background-image: url(one/scary-dog.jpg);
+}
+
+.sad-background {
+  background-image: url(one/sad-pug.jpg);
+}
+
+.noble-background {
+  background-image: url(one/noble-dog.jpg);
+}
+
+.super-background {
+  background-image: url(one/super-dog.jpg);
+  background-size: auto 768px;
+}
+
 .speed-background {
   background-image: url(one/speed.png);
 }
@@ -484,18 +507,39 @@ b .variable-name {
   background-image: url(one/mind-the-gap.png);
 }
 
+.mj-background {
+  background-image: url(one/mj-bad.jpeg);
+  background-size: 1030px auto;
+}
+
 .facepalm-background {
   background-image: url(one/facepalm.png);
   background-size: 600px auto; /* showoff slide centering :( */
 }
 
-h2.over-image, h4.over-image {
+.f-yeah-background {
+  background-image: url(one/f-yeah.png);
+  background-size: 800px auto;
+}
+
+.ice-cream-background {
+  background-image: url(one/ice-cream-cone.jpg);
+  background-size: 1030px;
+}
+
+.background-image h2, .background-image h4 {
   background-color: rgba( 128, 0, 128, 0.9);
   box-shadow: 0 1px 9px #111;
 }
 
-h2.over-image {
- font-size: 6em;
+.background-image h2 {
+ font-size: 8em;
+ box-shadow: 0 0px 15px #111;
+}
+
+.background-image h1 {
+  background-color: rgba( 214, 86, 0, 0.9);
+  box-shadow: 0 1px 9px #111;
 }
 
 h2.names {
@@ -587,4 +631,7 @@ img.stats.adjusted {
   left: 8px;
   top: 149px;
   width: 999px;
+}
+
+.black-heading h2 {
 }
