@@ -489,24 +489,6 @@ b .variable-name {
   background-size: auto 768px;
 }
 
-.speed-background {
-  background-image: url(one/speed.png);
-}
-
-.stats-background {
-  background-image: url(one/top-10k-bar.png);
-  background-size: auto;
-}
-
-.e-ml-background {
-  background-image: url(one/eilenberg-maclane.png);
-  background-size: auto;
-}
-
-.mind-gap-background {
-  background-image: url(one/mind-the-gap.png);
-}
-
 .mj-background {
   background-image: url(one/mj-bad.jpeg);
   background-size: 1030px auto;
