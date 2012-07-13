@@ -70,11 +70,11 @@ media queries • responsive
 ### tap vs click
 delay • scrolling • both inputs
 
-!SLIDE center
+!SLIDE center video
 <div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
 <video height="576" width="384" src="file/one/tap-then-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 
-!SLIDE center
+!SLIDE center video
 <div class="rotate-left" style="left: 25px; top: 315px;">Content Shift</div>
 <video height="576" width="384" src="file/one/tap-into-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 
