@@ -109,7 +109,7 @@ yes, even rendering
 we use &amp;nbsp; to fix bugs
 
 !SLIDE
-### transitions
+### animations
 toy examples work great
 
 !SLIDE center f-yeah-background background-image
