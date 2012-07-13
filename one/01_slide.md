@@ -70,8 +70,17 @@ media queries • responsive
 ### tap vs click
 delay • scrolling • both inputs
 
+!SLIDE center
+<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+<video height="576" width="384" src="file/one/tap-then-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+
+!SLIDE center
+<div class="rotate-left" style="left: 25px; top: 315px;">Content Shift</div>
+<video height="576" width="384" src="file/one/tap-into-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+
+
 !SLIDE high-image center
-<img src="droidincredible.jpg" style="height: 500px; float: left; margin-left: 155px;"></img>
+<img src="droidincredible.jpg" style="height: 500px; float: left; margin-left: 150px;"></img>
 <img src="blackberry-bold.jpg" style="height: 480px; float: left; margin-top: 10px;"></img>
 
 !SLIDE center facepalm-background background-image

@@ -564,6 +564,13 @@ h2.names {
   text-align: right;
   position: absolute;
   -webkit-transform: rotate(-90deg);
+  font-size: 6em;
+}
+
+video {
+  border: 5px solid #D65600;
+  border-radius: 5px;
+  margin-left: 80px;
 }
 
 .high-image {
