@@ -45,18 +45,14 @@ fairly consistent
 
 !SLIDE
 ### familiar
-web dev, app dev
+web dev • app dev
 
 !SLIDE
 ### source
-media queries, responsive
+media queries • responsive
 
 !SLIDE center mj-background background-image
 # Bad
-
-!SLIDE
-## webkit
-It's all the same right?
 
 !SLIDE
 ### history
@@ -81,18 +77,18 @@ delay • scrolling • both inputs
 !SLIDE center facepalm-background background-image
 # Ridiculous
 
-!SLIDE
-## android
+!SLIDE center webkit-background background-image
+## webkit
+It's all the same right?
 
-!SLIDE
-<h2 class="blur">Android</h2>
-<div class="gigantor" style="font-size: 18em; top: -50px">(╥﹏╥)</div>
+!SLIDE center ugly-background background-image
+## android
 
 !SLIDE
 ### <img src="android-icon.png"></img> is the new <img src="ie-icon.png"></img>
 
 !SLIDE
-### 2.2, 2.3.3
+### 2.2 • 2.3.3
 80+% percent of androids
 
 !SLIDE
@@ -108,10 +104,10 @@ we use &amp;nbsp; to fix bugs
 toy examples work great
 
 !SLIDE center f-yeah-background background-image
-# Jqm
+# jQuery Mobile
 
 !SLIDE
-## users
+### users
 no one uses this crap
 
 !SLIDE bullets grid users
@@ -136,7 +132,7 @@ no one uses this crap
 </div>
 
 !SLIDE
-## browser support
+### support
 
 !SLIDE bullets grid
 <div style="float: left;  margin-top: 200px">
@@ -161,14 +157,10 @@ no one uses this crap
 jquerymobile.com/gbs/
 
 !SLIDE
-## quick stats
-### (=O*_*)=O Q(*_*Q)
-
-!SLIDE
 ### github
-6000+ watchers • 1100+ forks
+6800+ watchers • 1200+ forks
 
 !SLIDE
 ### books
-8 books • 7 publishers
+10 books • 7 publishers
 

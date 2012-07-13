@@ -109,8 +109,6 @@ h3 img {
 
 .content h3 {
   font-size: 9em;
-/*  background-color: #3e57f2;
-  color: white; */
   padding: 0.25em 0;
 }
 
@@ -124,7 +122,7 @@ h3 img {
 }
 
 h1, h2, h3, h4 {
-  font-size: 8em;
+  font-size: 9em;
   font-family: Arial, sans-serif;
   padding-left: 50px;
   padding-right: 50px;
@@ -494,6 +492,18 @@ b .variable-name {
   background-size: 1030px auto;
 }
 
+.ugly-background {
+  background-image: url(one/ugly-dog.jpg);
+}
+
+.webkit-background {
+  background-image: url(one/webkit-puppies.jpg);
+}
+
+.webkit-background h2 {
+  margin-top: 200px;
+}
+
 .facepalm-background {
   background-image: url(one/facepalm.png);
   background-size: 600px auto; /* showoff slide centering :( */
@@ -515,8 +525,13 @@ b .variable-name {
 }
 
 .background-image h2 {
- font-size: 8em;
+ font-size: 9em;
  box-shadow: 0 0px 15px #111;
+}
+
+.background-image p {
+  background-color: rgba( 256, 256, 256, 0.6);
+  padding: 20px;
 }
 
 .background-image h1 {
