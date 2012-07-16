@@ -48,7 +48,7 @@ fairly consistent
 web dev • app dev
 
 !SLIDE
-### source
+### single source
 media queries • responsive
 
 !SLIDE center mj-background background-image
@@ -186,37 +186,37 @@ one event (set) to bind them all
 
 !SLIDE
 <pre>
-<span class="comment">// fastest & broken on desktop
+<span class="comment">// fastest &amp; broken on desktop
 </span>$btn.on( <span class="string"><b>"touchstart"</b></span>, doSomething );
 
 <span class="comment">// slowest
 </span>$btn.on( <span class="string">"click"</span>, doSomething );
 
-<span class="comment">// fast enough / safe
+<span class="comment">// fast enough &amp; safe
 </span>$btn.on( <span class="string">"vclick"</span>, doSomething );
 </pre>
 
 !SLIDE
 <pre>
-<span class="comment">// fastest & broken on desktop
+<span class="comment">// fastest &amp; broken on desktop
 </span>$btn.on( <span class="string">"touchstart"</span>, doSomething );
 
 <span class="comment">// slowest
 </span>$btn.on( <span class="string"><b>"click"</b></span>, doSomething );
 
-<span class="comment">// fast enough & safe
+<span class="comment">// fast enough &amp; safe
 </span>$btn.on( <span class="string">"vclick"</span>, doSomething );
 </pre>
 
 !SLIDE
 <pre>
-<span class="comment">// fastest & broken on desktop
+<span class="comment">// fastest &amp; broken on desktop
 </span>$btn.on( <span class="string">"touchstart"</span>, doSomething );
 
 <span class="comment">// slowest
 </span>$btn.on( <span class="string">"click"</span>, doSomething );
 
-<span class="comment">// fast enough / safe
+<span class="comment">// fast enough &amp; safe
 </span>$btn.on( <span class="string"><b>"vclick"</b></span>, doSomething );
 </pre>
 
@@ -284,3 +284,13 @@ one event (set) to bind them all
 !SLIDE center video
 <div class="rotate-left" style="left: 87px; top: 252px;">Pushstate</div>
 <video height="576" width="384" src="file/one/nav-replacestate.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+
+!SLIDE center pleading-background background-image
+<h1 style="margin-top: 100px">Use Something</h1>
+for the seals
+
+!SLIDE bullets mono-bullets
+## thanks
+* @johnbender
+* johnbender.us
+* github.com/johnbender

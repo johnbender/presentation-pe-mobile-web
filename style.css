@@ -51,6 +51,10 @@ iframe.phone {
   font-size: 4em;
 }
 
+.bullets h3 {
+  margin: .1em;
+}
+
 .thanks ul {
   font-size: 3em;
 }
@@ -512,6 +516,10 @@ b .variable-name {
 .f-yeah-background {
   background-image: url(one/f-yeah.png);
   background-size: 800px auto;
+}
+
+.pleading-background {
+  background-image: url(one/pleading.jpg);
 }
 
 .mouse-background {
