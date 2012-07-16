@@ -29,6 +29,9 @@ johnbender.github.com/presentation-faster-js
 !SLIDE center sad-background background-image
 ## ridiculous
 
+!SLIDE center examine-background background-image
+## pe approach
+
 !SLIDE center super-background background-image
 ## jquery mobile
 
@@ -73,10 +76,17 @@ delay • scrolling • both inputs
 !SLIDE center video
 <div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
 <video height="576" width="384" src="file/one/tap-then-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+<div class="video-link-container">
+<a href="https://vimeo.com/45721427">view on vimeo</a>
+</div>
 
 !SLIDE center video
 <div class="rotate-left" style="left: 25px; top: 315px;">Content Shift</div>
 <video height="576" width="384" src="file/one/tap-into-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+<div class="video-link-container">
+<a href="https://vimeo.com/45718716">view on vimeo</a>
+</div>
+
 
 
 !SLIDE high-image center
@@ -112,8 +122,24 @@ we use &amp;nbsp; to fix bugs
 ### animations
 toy examples work great
 
+!SLIDE center
+# PE Approach
+
+!SLIDE
+### make do
+use what's available
+
+!SLIDE video
+<div class="rotate-left" style="left: 68px; top: 263px;">Without JS</div>
+<video height="576" width="384" src="file/one/without-js.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+<div class="video-link-container">
+<a href="https://vimeo.com/45851036">view on vimeo</a>
+</div>
+
 !SLIDE center f-yeah-background background-image
 # jQuery Mobile
+
+
 
 !SLIDE
 ### users
@@ -223,6 +249,9 @@ one event (set) to bind them all
 !SLIDE center video
 <div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
 <video height="576" width="384" src="file/one/vmouse-speedup.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+<div class="video-link-container">
+<a href="https://vimeo.com/45851036">view on vimeo</a>
+</div>
 
 !SLIDE center background-image return-background
 ## navigation
@@ -280,10 +309,16 @@ one event (set) to bind them all
 !SLIDE center video
 <div class="rotate-left" style="left: 32px; top: 305px;">Hashchange</div>
 <video height="576" width="384" src="file/one/nav-hashchange.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+<div class="video-link-container">
+<a href="https://vimeo.com/45854912">view on vimeo</a>
+</div>
 
 !SLIDE center video
 <div class="rotate-left" style="left: 87px; top: 252px;">Pushstate</div>
 <video height="576" width="384" src="file/one/nav-replacestate.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+<div class="video-link-container">
+<a href="https://vimeo.com/45854913">view on vimeo</a>
+</div>
 
 !SLIDE center pleading-background background-image
 <h1 style="margin-top: 100px">Use Something</h1>
