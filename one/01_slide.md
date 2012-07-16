@@ -277,10 +277,10 @@ one event (set) to bind them all
 <span class="comment">// replaceState support
 </span><b><span class="js2-warning">foo.com/#/bar ⟶ foo.com/bar</span></b></pre>
 
-!SLIDE center
-<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+!SLIDE center video
+<div class="rotate-left" style="left: 32px; top: 305px;">Hashchange</div>
 <video height="576" width="384" src="file/one/nav-hashchange.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 
-!SLIDE center
-<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+!SLIDE center video
+<div class="rotate-left" style="left: 87px; top: 252px;">Pushstate</div>
 <video height="576" width="384" src="file/one/nav-replacestate.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
