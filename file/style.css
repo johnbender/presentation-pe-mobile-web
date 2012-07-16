@@ -51,6 +51,10 @@ iframe.phone {
   font-size: 4em;
 }
 
+.bullets h3 {
+  margin: .1em;
+}
+
 .thanks ul {
   font-size: 3em;
 }
@@ -109,9 +113,7 @@ h3 img {
 
 .content h3 {
   font-size: 9em;
-/*  background-color: #3e57f2;
-  color: white; */
-  padding: 0.25em 0;
+  padding: 0.15em 0;
 }
 
 .content h4 {
@@ -124,7 +126,7 @@ h3 img {
 }
 
 h1, h2, h3, h4 {
-  font-size: 8em;
+  font-size: 9em;
   font-family: Arial, sans-serif;
   padding-left: 50px;
   padding-right: 50px;
@@ -494,6 +496,18 @@ b .variable-name {
   background-size: 1030px auto;
 }
 
+.ugly-background {
+  background-image: url(one/ugly-dog.jpg);
+}
+
+.webkit-background {
+  background-image: url(one/webkit-puppies.jpg);
+}
+
+.webkit-background h2 {
+  margin-top: 200px;
+}
+
 .facepalm-background {
   background-image: url(one/facepalm.png);
   background-size: 600px auto; /* showoff slide centering :( */
@@ -502,6 +516,18 @@ b .variable-name {
 .f-yeah-background {
   background-image: url(one/f-yeah.png);
   background-size: 800px auto;
+}
+
+.pleading-background {
+  background-image: url(one/pleading.jpg);
+}
+
+.mouse-background {
+  background-image: url(one/mouse.jpg);
+}
+
+.return-background {
+  background-image: url(one/return.jpg);
 }
 
 .ice-cream-background {
@@ -515,13 +541,22 @@ b .variable-name {
 }
 
 .background-image h2 {
- font-size: 8em;
+ font-size: 9em;
  box-shadow: 0 0px 15px #111;
+}
+
+.background-image p {
+  background-color: rgba( 256, 256, 256, 0.6);
+  padding: 20px;
 }
 
 .background-image h1 {
   background-color: rgba( 214, 86, 0, 0.9);
   box-shadow: 0 1px 9px #111;
+}
+
+.android img {
+  height: 80%;
 }
 
 h2.names {
@@ -549,6 +584,13 @@ h2.names {
   text-align: right;
   position: absolute;
   -webkit-transform: rotate(-90deg);
+  font-size: 6em;
+}
+
+video {
+  border: 5px solid #D65600;
+  border-radius: 5px;
+  margin-left: 80px;
 }
 
 .high-image {
