@@ -220,7 +220,7 @@ one event (set) to bind them all
 </span>$btn.on( <span class="string"><b>"vclick"</b></span>, doSomething );
 </pre>
 
-!SLIDE center
+!SLIDE center video
 <div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
 <video height="576" width="384" src="file/one/vmouse-speedup.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 
@@ -230,3 +230,57 @@ one event (set) to bind them all
 !SLIDE image center android
 ![back button](android.jpg)
 
+!SLIDE
+<h3 style="font-size: 5.5em">direct ⟶ hash ⟶ state</h3>
+
+!SLIDE
+<pre class="small">
+<span class="comment">// no hash, no ajax
+</span><span class="js2-warning">foo.com/bar</span>
+
+<span class="comment">// hash support
+</span><span class="js2-warning">foo.com/#/bar</span>
+
+<span class="comment">// replaceState support
+</span><span class="js2-warning">foo.com/#/bar ⟶ foo.com/bar</span></pre>
+
+!SLIDE
+<pre class="small">
+<span class="comment">// no hash, no ajax
+</span><b><span class="js2-warning">foo.com/bar</span></b>
+
+<span class="comment">// hash support
+</span><span class="js2-warning">foo.com/#/bar</span>
+
+<span class="comment">// replaceState support
+</span><span class="js2-warning">foo.com/#/bar ⟶ foo.com/bar</span></pre>
+
+!SLIDE
+<pre class="small">
+<span class="comment">// no hash, no ajax
+</span><span class="js2-warning">foo.com/bar</span>
+
+<span class="comment">// hash support
+</span><b><span class="js2-warning">foo.com/#/bar</span></b>
+
+<span class="comment">// replaceState support
+</span><span class="js2-warning">foo.com/#/bar ⟶ foo.com/bar</span></pre>
+
+!SLIDE
+<pre class="small">
+<span class="comment">// no hash, no ajax
+</span><span class="js2-warning">foo.com/bar</span>
+
+<span class="comment">// hash support
+</span><span class="js2-warning">foo.com/#/bar</span>
+
+<span class="comment">// replaceState support
+</span><b><span class="js2-warning">foo.com/#/bar ⟶ foo.com/bar</span></b></pre>
+
+!SLIDE center
+<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+<video height="576" width="384" src="file/one/nav-hashchange.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+
+!SLIDE center
+<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+<video height="576" width="384" src="file/one/nav-replacestate.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
