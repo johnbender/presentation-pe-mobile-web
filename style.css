@@ -109,7 +109,7 @@ h3 img {
 
 .content h3 {
   font-size: 9em;
-  padding: 0.25em 0;
+  padding: 0.15em 0;
 }
 
 .content h4 {
@@ -514,6 +514,14 @@ b .variable-name {
   background-size: 800px auto;
 }
 
+.mouse-background {
+  background-image: url(one/mouse.jpg);
+}
+
+.return-background {
+  background-image: url(one/return.jpg);
+}
+
 .ice-cream-background {
   background-image: url(one/ice-cream-cone.jpg);
   background-size: 1030px;
@@ -537,6 +545,10 @@ b .variable-name {
 .background-image h1 {
   background-color: rgba( 214, 86, 0, 0.9);
   box-shadow: 0 1px 9px #111;
+}
+
+.android img {
+  height: 80%;
 }
 
 h2.names {

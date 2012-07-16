@@ -4,7 +4,7 @@ $(function() {
 
 		setTimeout(function() {
 			video.play();
-		}, 1500);
+		}, 1000);
 	});
 
 	$( ".video" ).live( "showoff:next showoff:prev", function(){

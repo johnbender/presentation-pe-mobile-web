@@ -97,7 +97,7 @@ It's all the same right?
 ### <img src="android-icon.png"></img> is the new <img src="ie-icon.png"></img>
 
 !SLIDE
-### 2.2 • 2.3.3
+### 2.2 • 2.3
 80+% percent of androids
 
 !SLIDE
@@ -172,4 +172,61 @@ jquerymobile.com/gbs/
 !SLIDE
 ### books
 10 books • 7 publishers
+
+!SLIDE center background-image mouse-background
+## vmouse
+
+!SLIDE
+### standards
+lack thereof
+
+!SLIDE
+### normalized
+one event (set) to bind them all
+
+!SLIDE
+<pre>
+<span class="comment">// fastest & broken on desktop
+</span>$btn.on( <span class="string"><b>"touchstart"</b></span>, doSomething );
+
+<span class="comment">// slowest
+</span>$btn.on( <span class="string">"click"</span>, doSomething );
+
+<span class="comment">// fast enough / safe
+</span>$btn.on( <span class="string">"vclick"</span>, doSomething );
+</pre>
+
+!SLIDE
+<pre>
+<span class="comment">// fastest & broken on desktop
+</span>$btn.on( <span class="string">"touchstart"</span>, doSomething );
+
+<span class="comment">// slowest
+</span>$btn.on( <span class="string"><b>"click"</b></span>, doSomething );
+
+<span class="comment">// fast enough & safe
+</span>$btn.on( <span class="string">"vclick"</span>, doSomething );
+</pre>
+
+!SLIDE
+<pre>
+<span class="comment">// fastest & broken on desktop
+</span>$btn.on( <span class="string">"touchstart"</span>, doSomething );
+
+<span class="comment">// slowest
+</span>$btn.on( <span class="string">"click"</span>, doSomething );
+
+<span class="comment">// fast enough / safe
+</span>$btn.on( <span class="string"><b>"vclick"</b></span>, doSomething );
+</pre>
+
+!SLIDE center
+<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+<video height="576" width="384" src="file/one/vmouse-speedup.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+
+!SLIDE center background-image return-background
+## navigation
+
+!SLIDE image center android
+![back button](android.jpg)
 
