@@ -126,8 +126,8 @@ toy examples work great
 # PE Approach
 
 !SLIDE
-### make do
-use what's available
+### build up
+start with what always works
 
 !SLIDE video
 <div class="rotate-left" style="left: 68px; top: 263px;">Without JS</div>
@@ -136,10 +136,12 @@ use what's available
 <a href="https://vimeo.com/45851036">view on vimeo</a>
 </div>
 
+!SLIDE
+### history
+reload ⟶ hash ⟶ state
+
 !SLIDE center f-yeah-background background-image
 # jQuery Mobile
-
-
 
 !SLIDE
 ### users
@@ -260,7 +262,8 @@ one event (set) to bind them all
 ![back button](android.jpg)
 
 !SLIDE
-<h3 style="font-size: 5.5em">direct ⟶ hash ⟶ state</h3>
+### history
+reload ⟶ hash ⟶ state
 
 !SLIDE
 <pre class="small">

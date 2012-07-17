@@ -1,6 +1,7 @@
 $(function() {
 	$( ".video" ).live( "showoff:show", function(){
 		var video = $(this).find( "video" )[0];
+		video.currentTime = 0;
 
 		setTimeout(function() {
 			video.play();
