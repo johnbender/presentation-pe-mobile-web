@@ -5,7 +5,7 @@
   <div style="font-size: 0.6em; margin: 18px 0;">on the</div>
   Mobile Web
 </h1>
-johnbender.github.com/presentation-faster-js
+johnbender.github.com/presentation-pe-mobile-web
 
 !SLIDE bullets mono-bullets
 ## me
@@ -70,11 +70,19 @@ media queries • responsive
 2 x each browser
 
 !SLIDE
-### tap vs click
+## tap vs click
 delay • scrolling • both inputs
 
+!SLIDE
+### standards
+lack thereof
+
+!SLIDE
+### heuristics
+what you tap may not get a click
+
 !SLIDE center video
-<div class="rotate-left" style="left: 100px; top: 238px;">Tap/Click</div>
+<div class="rotate-left" style="left: 82px; top: 257px;">Tap/Delay</div>
 <video height="576" width="384" src="file/one/tap-then-click.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
 <div class="video-link-container">
 <a href="https://vimeo.com/45721427">view on vimeo</a>
@@ -86,8 +94,6 @@ delay • scrolling • both inputs
 <div class="video-link-container">
 <a href="https://vimeo.com/45718716">view on vimeo</a>
 </div>
-
-
 
 !SLIDE high-image center
 <img src="droidincredible.jpg" style="height: 500px; float: left; margin-left: 150px;"></img>
@@ -128,6 +134,94 @@ toy examples work great
 !SLIDE
 ### build up
 start with what always works
+
+!SLIDE
+<pre class="xlarge">
+&lt;<span class="function-name">body</span>&gt;
+  &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"default"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <span class="variable-name">href</span>=<span class="string">"#destination"</span> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Next Page!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+
+  &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"destination"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <span class="variable-name">href</span>=<span class="string">"#default"</span> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Back!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+&lt;/<span class="function-name">body</span>&gt;</pre>
+
+!SLIDE
+<pre class="xlarge">
+&lt;<span class="function-name">body</span>&gt;
+  &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"default"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <b><span class="variable-name">href</span>=<span class="string">"#destination"</span></b> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Next Page!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+
+  &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"destination"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <b><span class="variable-name">href</span>=<span class="string">"#default"</span></b> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Back!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+&lt;/<span class="function-name">body</span>&gt;</pre>
+
+!SLIDE
+<pre class="xlarge">
+&lt;<span class="function-name">body</span>&gt;
+  &lt;<span class="function-name">div</span> <b><span class="variable-name">id</span>=<span class="string">"default"</span></b> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <span class="variable-name">href</span>=<span class="string">"#destination"</span> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Next Page!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+
+  &lt;<span class="function-name">div</span> <b><span class="variable-name">id</span>=<span class="string">"destination"</span></b> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <span class="variable-name">href</span>=<span class="string">"#default"</span> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Back!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+&lt;/<span class="function-name">body</span>&gt;</pre>
+
+!SLIDE
+<pre class="xlarge">
+&lt;<span class="function-name">body</span>&gt;
+  &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"default"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <b><span class="variable-name">href</span>=<span class="string">"/foo/bar/baz"</span></b> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Next Page!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+
+  &lt;<span class="function-name">div</span> <span class="variable-name">id</span>=<span class="string">"destination"</span> <span class="variable-name">data-role</span>=<span class="string">"page"</span>&gt;
+    &lt;<span class="function-name">div</span> <span class="variable-name">data-role</span>=<span class="string">"header"</span>&gt;
+      &lt;<span class="function-name">h1</span>&gt;<span class="underline"><span class="bold">With JavaScript</span></span>&lt;/<span class="function-name">h1</span>&gt;
+    &lt;/<span class="function-name">div</span>&gt;
+    &lt;<span class="function-name">a</span> <span class="variable-name">href</span>=<span class="string">"#default"</span> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+      Back!
+    &lt;/<span class="function-name">a</span>&gt;
+  &lt;/<span class="function-name">div</span>&gt;
+&lt;/<span class="function-name">body</span>&gt;</pre>
 
 !SLIDE video
 <div class="rotate-left" style="left: 68px; top: 263px;">Without JS</div>
@@ -205,12 +299,8 @@ jquerymobile.com/gbs/
 ## vmouse
 
 !SLIDE
-### standards
-lack thereof
-
-!SLIDE
 ### normalized
-one event (set) to bind them all
+standars • one event
 
 !SLIDE
 <pre>
