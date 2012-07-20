@@ -544,6 +544,11 @@ b .variable-name {
   background-image: url(one/return.jpg);
 }
 
+.builder-background {
+  background-image: url(one/builder.jpg);
+  background-size: 768px auto;
+}
+
 .ice-cream-background {
   background-image: url(one/ice-cream-cone.jpg);
   background-size: 1030px;

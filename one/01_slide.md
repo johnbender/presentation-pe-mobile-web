@@ -358,6 +358,10 @@ reload ⟶ hash ⟶ state
 <a href="https://vimeo.com/45854913">view on vimeo</a>
 </div>
 
+!SLIDE center builder-background background-image
+## builder
+jquerymobile.com/download-builder/
+
 !SLIDE center pleading-background background-image
 <h1 style="margin-top: 100px">Use Something</h1>
 for the seals
