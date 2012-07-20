@@ -69,7 +69,7 @@ media queries • responsive
 ### web views
 2 x each browser
 
-!SLIDE
+!SLIDE center red-button-background background-image
 ## tap vs click
 delay • scrolling • both inputs
 
