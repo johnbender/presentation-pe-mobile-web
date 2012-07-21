@@ -1,13 +1,11 @@
 !SLIDE link
 <h1 style="font-size: 7em">
-  Progressive Enhancement
-  <!-- oh noes div inside h1 :P -->
-  <div style="font-size: 0.6em; margin: 18px 0;">on the</div>
-  Mobile Web
+  <span style="line-height: 1.2em">Mobile Webdev:</span>
+  The Horror
 </h1>
 johnbender.github.com/presentation-pe-mobile-web
 
-!SLIDE bullets mono-bullets
+!SLIDE center bullets mono-bullets
 ## me
 * @johnbender
 * johnbender.us
@@ -132,7 +130,7 @@ toy examples work great
 # PE Approach
 
 !SLIDE
-### build up
+### inclusive
 start with what always works
 
 !SLIDE
@@ -156,7 +154,7 @@ reload ⟶ hash ⟶ state
 
 !SLIDE image
 <pre class="medium" style="margin-top: 200px">
-&lt;<span class="function-name">a</span> <b><span class="variable-name">href</span>=<span class="string">"/foo/bar"</span></b> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+&lt;<span class="function-name">a</span> <span class="variable-name">href</span>=<span class="string">"/foo/bar"</span> <b><span class="variable-name">data-role</span>=<span class="string">"button"</span></b>&gt;
   Next Page!
 &lt;/<span class="function-name">a</span>&gt;</pre>
 <img src="button.png" style="width: 100%; border: 10px solid white; box-sizing: border-box;"></img>
@@ -167,6 +165,13 @@ reload ⟶ hash ⟶ state
   Next Page!
 &lt;/<span class="function-name">a</span>&gt;</pre>
 <img src="button.png" style="width: 100%; border: 10px solid #D65600; box-sizing: border-box;"></img>
+
+!SLIDE image
+<pre class="medium" style="margin-top: 200px">
+&lt;<span class="function-name">a</span> <b><span class="variable-name">href</span>=<span class="string">"/foo/bar"</span></b> <span class="variable-name">data-role</span>=<span class="string">"button"</span>&gt;
+  Next Page!
+&lt;/<span class="function-name">a</span>&gt;</pre>
+<img src="button.png" style="width: 100%; border: 10px solid white; box-sizing: border-box;"></img>
 
 !SLIDE image
 <pre class="medium" style="margin-top: 200px">
@@ -224,7 +229,7 @@ no one uses this crap
 </ul>
 </div>
 
-<div style="float: left; margin-bottom: 100px; margin-top: 200px">
+<div style="float: left; margin-bottom: 50px; margin-top: 200px">
 <ul>
   <li> Firebox Mobile </li>
   <li> Opera Mobile 11.0 </li>
@@ -248,7 +253,7 @@ jquerymobile.com/gbs/
 
 !SLIDE
 ### normalized
-standars • one event
+standards • one event
 
 !SLIDE
 <pre>
@@ -300,7 +305,7 @@ reload ⟶ hash ⟶ state
 !SLIDE image center android
 ![back button](android.jpg)
 
-!SLIDE
+!SLIDE tall-code
 <pre class="small">
 <span class="comment">// no hash, no ajax
 </span><span class="js2-warning">foo.com/bar</span>
@@ -362,9 +367,13 @@ reload ⟶ hash ⟶ state
 ## builder
 jquerymobile.com/download-builder/
 
+!SLIDE center future-background background-image
+## jqm's future
+jquery for mobile browsers
+
 !SLIDE center pleading-background background-image
 <h1 style="margin-top: 100px">Use Something</h1>
-for the seals
+anything at all
 
 !SLIDE bullets mono-bullets
 ## thanks
