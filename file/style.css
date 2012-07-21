@@ -514,6 +514,10 @@ b .variable-name {
   background-image: url(one/ugly-dog.jpg);
 }
 
+.ugly-background h2 {
+  margin-top: 300px;
+}
+
 .webkit-background {
   background-image: url(one/webkit-puppies.jpg);
 }
@@ -532,8 +536,27 @@ b .variable-name {
   background-size: 800px auto;
 }
 
+.nerd-background {
+  background-image: url(one/nerd.jpg);
+  background-size: 1024px auto;
+}
+
+.nerd-background li {
+  background-color: rgba( 256, 256, 256, 0.6);
+  padding: 20px;
+}
+
+.nerd-background h2 {
+  background-color: rgba( 128, 0, 128, 0.9);
+  box-shadow: 0 1px 9px #111;
+}
+
 .pleading-background {
   background-image: url(one/pleading.jpg);
+}
+
+.future-background {
+  background-image: url(one/future.jpg);
 }
 
 .mouse-background {
@@ -550,7 +573,6 @@ b .variable-name {
 
 .builder-background {
   background-image: url(one/builder.jpg);
-  background-size: 768px auto;
 }
 
 .ice-cream-background {
@@ -576,6 +598,10 @@ b .variable-name {
 .background-image p {
   background-color: rgba( 256, 256, 256, 0.6);
   padding: 20px;
+}
+
+.builder-background p {
+  background-color: rgba( 256, 256, 256, 0.8);
 }
 
 .background-image h1 {
@@ -695,7 +721,4 @@ img.stats.adjusted {
   left: 8px;
   top: 149px;
   width: 999px;
-}
-
-.black-heading h2 {
 }
