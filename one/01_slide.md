@@ -1,15 +1,16 @@
-!SLIDE link
+!SLIDE center link horror-background background-image
 <h1 style="font-size: 7em">
-  <span style="line-height: 1.2em">Mobile Webdev:</span>
+  <span style="line-height: 1.4em">Mobile Webdev:</span>
   The Horror
 </h1>
 johnbender.github.com/presentation-pe-mobile-web
 
-!SLIDE center bullets mono-bullets
+!SLIDE center bullets mono-bullets finish-background background-image
 ## me
-* @johnbender
-* johnbender.us
-* github.com/johnbender
+* <span>@johnbender</span>
+* <span>johnbender.us</span>
+* <span>github.com/johnbender</span>
+<div class="notes">foo</div>
 
 !SLIDE center adobe-background background-image
 ## jque<span class="ry-kern">ry</span> mobile
@@ -375,8 +376,8 @@ jquery for mobile browsers
 <h1 style="margin-top: 100px">Use Something</h1>
 anything at all
 
-!SLIDE bullets mono-bullets
+!SLIDE center bullets mono-bullets finish-background background-image
 ## thanks
-* @johnbender
-* johnbender.us
-* github.com/johnbender
+* <span>@johnbender</span>
+* <span>johnbender.us</span>
+* <span>github.com/johnbender</span>
