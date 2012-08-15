@@ -57,7 +57,7 @@ iframe.phone {
 }
 
 .mono-bullets ul, .link p {
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .bullets h3 {
@@ -79,7 +79,7 @@ iframe.phone {
 }
 
 .link p {
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 .bullets.grid ul {
@@ -192,30 +192,6 @@ h1, h2, h3, h4 {
 
 .title p {
   font-size: 2.0em;
-}
-
-#fixture a {
-  color: #333;
-  text-decoration: none;
-  font-size: 4em;
-}
-
-#qunit-feedback {
-  min-height: 200px;
-}
-
-body.example {
-  text-align: center;
-  padding-top: 20px;
-}
-
-body.example img {
-  min-width: 10%;
-  font-size: 20px;
-}
-
-img {
-  margin-bottom: 300px;
 }
 
 body.example #qunit-feedback {
@@ -536,6 +512,25 @@ b .variable-name {
   background-size: 800px auto;
 }
 
+.finish-background li {
+  margin: 10px;
+}
+
+.finish-background.bullets li span {
+  background-color: rgba( 256, 256, 256, 0.8);
+  padding: 20px;
+}
+
+.finish-background {
+  background-image: url(one/finish.jpg);
+  background-size: auto 1024px;
+}
+
+.horror-background {
+  background-image: url(one/horror.jpg);
+  background-size: 1024px auto;
+}
+
 .nerd-background {
   background-image: url(one/nerd.jpg);
   background-size: 1024px auto;
@@ -596,7 +591,7 @@ b .variable-name {
 }
 
 .background-image p {
-  background-color: rgba( 256, 256, 256, 0.6);
+  background-color: rgba( 256, 256, 256, 0.7);
   padding: 20px;
 }
 

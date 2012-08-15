@@ -13,4 +13,9 @@ $(function() {
 		video.pause();
 		video.currentTime = 0;
 	});
+
+	$( ".content" ).live( "showoff:show", function() {
+		var notes = $.trim($(this).find( ".notes" ).text());
+		if( window.console && notes ) console.log( notes );
+	});
 });
